@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /*lighter normal bold bolder */
+        }
+        h1{
+            /*shorthand
+             font-style -> font-weight -> font-size -> font-family
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bloder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Arial';
+        }
+        h2{
+            font: bold 2em 'Arial';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias earum aliquid, esse nulla tempore nostrum quia, soluta nemo voluptate cumque ipsa quibusdam dolores vero nihil ab consequuntur possimus facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, eveniet? Sequi architecto reprehenderit dicta animi laboriosam aut asperiores, sint ab ex quod. Laudantium commodi eaque in nemo dolor, veniam accusantium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati explicabo consequuntur. Sequi commodi, nulla odit doloribus beatae soluta sint, voluptatibus, nisi officia tempora ab quos? Voluptas eius voluptatem vero.</p>
+    <h2>Subtítulo do exercicío</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perspiciatis dolorem maxime non facere. Nulla eum nemo necessitatibus distinctio iste ipsum libero minima eos earum natus? Neque laudantium eos porro.</p>
+</body>
+</html>
