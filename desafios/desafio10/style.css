@@ -1,0 +1,110 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'android';
+    src: url(__MACOSX/fontes/._idroid);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #82AFFF;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 2px 5px #26B6C6;
+}
+
+.h3a{
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    background-color: #4169E1;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: solid;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover {
+    background-color:#002366;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+header {
+    background-color: #4169E1;
+    padding: 20px 4px;
+    background-image: linear-gradient();
+}
+article {
+    background-color: white;
+    margin: auto;
+    height: 2320px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#pa {
+    color: black;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+h2{
+    color: #002366;
+    font-family: 'android';
+    } 
+
+.pequena {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    padding-left: 110px;
+    background-color: #4169E1;
+    
+}
+
+footer {
+    background-color: #002366;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+.p1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+iframe {
+    padding: 20px;
+}
+
+.back2 {
+    background-color: #82AFFF;
+    border-radius: 5px;
+}
+
+footer > p {
+    margin: 4px;
+}
